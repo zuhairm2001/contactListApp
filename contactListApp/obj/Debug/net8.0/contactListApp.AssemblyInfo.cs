@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("contactListApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c816c67ef50cdbfe987a4509c90fc15d1650344")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ae8e8a9ca09e7a7c98ac45bc921e16ed94c591a")]
 [assembly: System.Reflection.AssemblyProductAttribute("contactListApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("contactListApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

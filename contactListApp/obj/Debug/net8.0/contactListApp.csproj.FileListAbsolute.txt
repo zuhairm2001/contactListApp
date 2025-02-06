@@ -168,3 +168,9 @@
 /home/zuhair/Documents/dev/contactListApp/contactListApp/obj/Debug/net8.0/contactListApp.genruntimeconfig.cache
 /home/zuhair/Documents/dev/contactListApp/contactListApp/obj/Debug/net8.0/ref/contactListApp.dll
 /home/zuhair/Documents/dev/contactListApp/contactListApp/obj/Debug/net8.0/contactListApp.sourcelink.json
+/home/zuhair/Documents/dev/contactListApp/contactListApp/bin/Debug/net8.0/contact-app-view/angular.json
+/home/zuhair/Documents/dev/contactListApp/contactListApp/bin/Debug/net8.0/contact-app-view/package-lock.json
+/home/zuhair/Documents/dev/contactListApp/contactListApp/bin/Debug/net8.0/contact-app-view/package.json
+/home/zuhair/Documents/dev/contactListApp/contactListApp/bin/Debug/net8.0/contact-app-view/tsconfig.app.json
+/home/zuhair/Documents/dev/contactListApp/contactListApp/bin/Debug/net8.0/contact-app-view/tsconfig.json
+/home/zuhair/Documents/dev/contactListApp/contactListApp/bin/Debug/net8.0/contact-app-view/tsconfig.spec.json
