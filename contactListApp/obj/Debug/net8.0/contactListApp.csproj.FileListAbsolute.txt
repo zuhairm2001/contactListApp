@@ -167,3 +167,4 @@
 /home/zuhair/Documents/dev/contactListApp/contactListApp/obj/Debug/net8.0/contactListApp.pdb
 /home/zuhair/Documents/dev/contactListApp/contactListApp/obj/Debug/net8.0/contactListApp.genruntimeconfig.cache
 /home/zuhair/Documents/dev/contactListApp/contactListApp/obj/Debug/net8.0/ref/contactListApp.dll
+/home/zuhair/Documents/dev/contactListApp/contactListApp/obj/Debug/net8.0/contactListApp.sourcelink.json
