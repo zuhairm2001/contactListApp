@@ -1,9 +1,12 @@
 using ContactListApp.Models;
 using Microsoft.EntityFrameworkCore;
 
-public class ApplicationDbContext : DbContext
-{
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) {}
+namespace ContactListApp.Data{
 
-    public DbSet<Contact> Contacts { get; set; }
+    public class ApplicationDbContext : DbContext
+    {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) {}
+
+        public DbSet<Contact> Contacts { get; set; }
+    }
 }
