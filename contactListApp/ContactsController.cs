@@ -18,8 +18,8 @@ public class ContactsController : ControllerBase
     public async Task<ActionResult<IEnumerable<Contact>>> GetContacts()
     {
         return await _context.Contacts.ToListAsync();
-    {
-    
+    }
+
     [HttpPost]
     public async Task<ActionResult<Contact>> CreateContact(Contact contact)
     {
