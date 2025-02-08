@@ -4,21 +4,33 @@ import { FormsModule } from '@angular/forms';
 import { ContactService, Contact } from './services/contact.service';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatInputModule} from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatTableModule, MatHeaderRow, MatHeaderCell, MatRow, MatCell } from '@angular/material/table'; // Import necessary directivesimport { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-root',
   standalone: true, 
-  imports: [FormsModule, HttpClientModule, CommonModule, MatFormFieldModule, MatInputModule],
+  imports: [
+    FormsModule,
+    HttpClientModule, 
+    CommonModule, 
+    MatFormFieldModule, 
+    MatInputModule,
+    MatTableModule, 
+    MatHeaderRow,  
+    MatHeaderCell, 
+    MatRow,        
+    MatCell,       
+  ],
+  providers: [ContactService],  
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
-  providers: [ContactService]
+  styleUrl: './app.component.css'
 })
 export class AppComponent {
-contacts: Contact[] = [];
+  contacts: Contact[] = [];
   newContact: Contact = { name: '', email: '', phone: '' };
-
+  displayedColumns: string[] = ['name', 'email', 'phone', 'actions'];
   constructor(private contactService: ContactService) { }
 
   ngOnInit(): void {
