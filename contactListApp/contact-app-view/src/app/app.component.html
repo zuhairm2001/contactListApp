@@ -1,7 +1,17 @@
 <div>
-  <input [(ngModel)]="newContact.name" placeholder="Name">
-  <input [(ngModel)]="newContact.email" placeholder="Email">
-  <input [(ngModel)]="newContact.phone" placeholder="Phone">
+  <mat-form-field>
+    <mat-label>Name</mat-label>
+    <input [(ngModel)]="newContact.name" type="text" matInput>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Email</mat-label>
+    <input [(ngModel)]="newContact.email" type="text" matInput>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Phone</mat-label>
+    <input [(ngModel)]="newContact.phone" type="tel" matInput>
+  </mat-form-field>
+
   <button (click)="addContacts()">Add Contact</button>
 </div>
 

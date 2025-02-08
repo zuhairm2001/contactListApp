@@ -4,13 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { ContactService, Contact } from './services/contact.service';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
 
 @Component({
   selector: 'app-root',
   standalone: true, 
-  imports: [FormsModule, HttpClientModule, CommonModule],
+  imports: [FormsModule, HttpClientModule, CommonModule, MatFormFieldModule, MatInputModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
+  providers: [ContactService]
 })
 export class AppComponent {
 contacts: Contact[] = [];
